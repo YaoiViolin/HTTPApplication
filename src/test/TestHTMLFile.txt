@@ -1,0 +1,10 @@
+<HTML>
+<HEAD>
+<TITLE> Название документа, ура.</TITLE>
+</HEAD>
+<BODY bgcolor=”teal” text=”aqua”>
+Здесь расположен "Web-документ".
+<CENTER><H1><font color=”yellow”>Ура! Hello!</H1></CENTER></font><P>
+<CENTER><font color=”red” size=4>Ура! Здравствуй, мир!</CENTER></font>
+</BODY>
+</HTML>
