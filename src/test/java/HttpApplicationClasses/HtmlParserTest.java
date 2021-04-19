@@ -12,7 +12,7 @@ class HtmlParserTest {
 
     @Test
     void parse() {
-        File file = new File("C:/TestHTMLFile.txt");
+        File file = new File("/TestHTMLFile.txt");
         HtmlParser parser = new HtmlParser(file);
         Map<String, Integer> actualResults;
 

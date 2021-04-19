@@ -18,7 +18,7 @@ class HtmlFileCreatorTest {
         HtmlFileCreator fileCreator = new HtmlFileCreator("https://fiz.1sept.ru/article.php?ID=200800306"); //пример довольно короткого html-файла
         String filePath = fileCreator.saveToFile();
         File actualFile = new File(filePath);
-        File expectedFile = new File("C:/SavingTestingFile.txt"); //короткий html-файл
+        File expectedFile = new File("/SavingTestingFile.txt"); //короткий html-файл
 
         BufferedReader readerOfExpFile = new BufferedReader(new FileReader(expectedFile));
         BufferedReader readerOfActFile = new BufferedReader(new FileReader(actualFile));
