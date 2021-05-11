@@ -26,7 +26,7 @@ public class HtmlParser {
         LOCAL_HTML_FILE = file;
     }
 
-    public HtmlParser(HtmlFileCreator HTMLFileInstance) { //использовать, когда локально сохраненного еще html-файла нет, есть только ссылка на ресурс
+    public HtmlParser(HtmlFileCreator HTMLFileInstance) { //использовать, когда локально сохраненного html-файла ещё нет, есть только ссылка на ресурс
         this.LOCAL_HTML_FILE = new File(HTMLFileInstance.saveToFile());
         this.url = HTMLFileInstance.getURL();
     }
